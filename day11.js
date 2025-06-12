@@ -8,6 +8,5 @@ let surName = "Kallakunta";
 surName = "Kumar";
 console.log(surName);
 
-const fullName= "Anil Kumar";
-fullName="kumar";
+const fullName= "Anil";
 console.log(fullName);
