@@ -13,7 +13,7 @@ const arr = [
 
 
 
-const res = arr.map((val,ind)=>{
-    return val.Name + " " + ind
+const res = arr.map((val,ind,x)=>{
+    return val.Name + " " + ind + " " + x[ind].age
 });
 console.log(res);
