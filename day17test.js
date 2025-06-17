@@ -14,6 +14,6 @@ const arr = [
 
 
 const res = arr.map((val,ind)=>{
-    return val
+    return val.Name + " " + ind
 });
 console.log(res);
